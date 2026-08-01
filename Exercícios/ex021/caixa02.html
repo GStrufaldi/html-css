@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(79, 79, 79);
+            padding: 5px;
+            text-align: center;
+            box-shadow: 4px 4px 4px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(129, 128, 128);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 50%;
+            box-shadow:10px 10px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Fotos</a>
+            <a href="#">Videos</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias Gerais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusantium, aspernatur laboriosam repudiandae distinctio esse incidunt molestiae libero cumque vitae quasi, maiores exercitationem! Expedita velit porro vitae consectetur repellendus delectus?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in porro eos corporis, praesentium mollitia quaerat ratione modi dicta minima totam, ipsa iusto amet! Totam odit delectus enim unde perferendis!</p>
+                <aside>
+                    <p>Artigo escrito por Carla Azevedo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Alves</p>
+    </footer>
+    <div></div>
+</body>
+</html>
